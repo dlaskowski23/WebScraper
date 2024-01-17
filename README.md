@@ -6,7 +6,7 @@ This project is a simple web scraping application that fetches real-time data ab
 
 ## Components
 
-1. **Python Script (`problem_1.py`):** Scrapes data from Yahoo Finance's "Most Active" stocks page. The script uses `requests` for HTTP requests, `BeautifulSoup` for parsing HTML, and `pymongo` for interacting with MongoDB.
+1. **Python Script (`WebScrapingScript.py`):** Scrapes data from Yahoo Finance's "Most Active" stocks page. The script uses `requests` for HTTP requests, `BeautifulSoup` for parsing HTML, and `pymongo` for interacting with MongoDB.
 
 2. **PHP Script (`myphp.php`):** Retrieves the scraped data from MongoDB and displays it on a web page. It includes functionalities for sorting the data in the table.
 
@@ -25,7 +25,7 @@ This project is a simple web scraping application that fetches real-time data ab
 
 2. **Run the Python Script:**
    - Install the required Python libraries.
-   - Execute the script `problem_1.py` to start scraping the data.
+   - Execute the script `WebScrapingScript.py` to start scraping the data.
 
 3. **Display the Data:**
    - Host the PHP script `myphp.php` on a local or web server.
@@ -36,7 +36,3 @@ This project is a simple web scraping application that fetches real-time data ab
 - **Data Scraping:** Real-time scraping of stock data from Yahoo Finance.
 - **Data Storage:** Storing scraped data in MongoDB for retrieval.
 - **Web Interface:** A simple and interactive web interface to display the stock data with sorting functionality.
-
-## Contributing
-
-Feel free to fork this project and contribute. Any contributions you make are greatly appreciated.
